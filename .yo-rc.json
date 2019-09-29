@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "xinghaoPlatform",
+    "packageName": "cn.hzxinghao.platform",
+    "packageFolder": "cn/hzxinghao/platform",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.3.1",
+    "jwtSecretKey": "NGQzZjQ1YTQ1YjE5YmJlZTBjZjg0YTU3MWQ0ZTVmN2EyZDE4NjFkY2JlZTFiNTkyNmJhM2YzM2YzYzZlMDZhYzFiM2Q1ZmZkY2M4MmZlOWMzMDY2MjBiZWI3MjM5OTc1MmRlMzg0N2NhZDQ5NzMxZmFkYWRkNDg1ODhkYjkwMmM=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "googlezhang",
+  "repository-name": "xinghao-platform"
+}
